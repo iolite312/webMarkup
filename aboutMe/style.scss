@@ -10,7 +10,7 @@ body {
     background: linear-gradient(203deg, rgba(255,105,105,1) 0%, rgba(153,0,0,1) 100%);
 }
 #centerContainer {
-    height: 1133px;
+    height: 100vh;
     width: 744px;
     margin: 0 auto;
     #aboutMe {
@@ -19,6 +19,59 @@ body {
             position: fixed;
             margin-top: 14px;
             margin-left: 14px;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            #top {
+                display: flex;
+                flex-direction: row;
+                .textAboutMe {
+                    color: #fff;
+                    background: #717171;
+                    text-align: center;
+                    margin: 45px 0 35px;
+                    height: fit-content;
+                    border-radius: 5px;
+                    span {
+                        font-weight: 700;
+                    }
+                    h2 {
+                        margin: 14px 92px 0;
+                    }
+                    p {
+                        margin: 18px;
+                    }
+                }
+                .imgAboutMe {
+                    margin-top: 16px;
+                    margin-left: 30px;
+                }
+                .classIcon {
+                    position: absolute;
+                    right: 39px;
+                    top: 32%;
+                }
+            }
+            #bottom {
+                width: 645px;
+                background: #717171;
+                margin-left: 60px;
+                border-radius: 5px;
+                color: #fff;
+                padding: 14px 19px;
+                p {
+                    line-height: 22px;
+                    margin-top: 27px;
+                    span {
+                        font-weight: 700;
+                    }
+                }
+                a {
+                    text-decoration: underline;
+                    color: #fff;
+                }
+            }
         }
     }
 }

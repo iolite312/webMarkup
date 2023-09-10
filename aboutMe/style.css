@@ -12,7 +12,7 @@ body {
 }
 
 #centerContainer {
-  height: 1133px;
+  height: 100vh;
   width: 744px;
   margin: 0 auto;
 }
@@ -23,4 +23,58 @@ body {
   position: fixed;
   margin-top: 14px;
   margin-left: 14px;
+}
+#centerContainer #aboutMe main {
+  display: flex;
+  flex-direction: column;
+}
+#centerContainer #aboutMe main #top {
+  display: flex;
+  flex-direction: row;
+}
+#centerContainer #aboutMe main #top .textAboutMe {
+  color: #fff;
+  background: #717171;
+  text-align: center;
+  margin: 45px 0 35px;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 5px;
+}
+#centerContainer #aboutMe main #top .textAboutMe span {
+  font-weight: 700;
+}
+#centerContainer #aboutMe main #top .textAboutMe h2 {
+  margin: 14px 92px 0;
+}
+#centerContainer #aboutMe main #top .textAboutMe p {
+  margin: 18px;
+}
+#centerContainer #aboutMe main #top .imgAboutMe {
+  margin-top: 16px;
+  margin-left: 30px;
+}
+#centerContainer #aboutMe main #top .classIcon {
+  position: absolute;
+  right: 39px;
+  top: 32%;
+}
+#centerContainer #aboutMe main #bottom {
+  width: 645px;
+  background: #717171;
+  margin-left: 60px;
+  border-radius: 5px;
+  color: #fff;
+  padding: 14px 19px;
+}
+#centerContainer #aboutMe main #bottom p {
+  line-height: 22px;
+  margin-top: 27px;
+}
+#centerContainer #aboutMe main #bottom p span {
+  font-weight: 700;
+}
+#centerContainer #aboutMe main #bottom a {
+  text-decoration: underline;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */

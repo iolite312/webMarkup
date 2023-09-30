@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap');
+:root {
+  --background-color: #003c00;
+  --background-color-hover: #013001;
+  --font: 'Fira sans', sans-serif;
+  --light-text: #fff;
+  --dark-text: #000;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  font-family: var(--font);
+  color: var(--dark-text);
+}
+a {
+  text-decoration: none;
+}
+nav.top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 64px;
+  width: 100%;
+  background: var(--background-color);
+  z-index: 99;
+}
+nav.top-nav > img {
+  display: block;
+  position: absolute;
+  top: 7px;
+  left: 50%;
+  height: 50px;
+  width: 200px;
+  transform: translateX(-50%);
+}
+nav.top-nav > ul {
+  position: absolute;
+  top: 64px;
+  list-style: none;
+  width: 100%;
+  transition: all 0.2s;
+  transform: translateX(-100%);
+}
+nav.top-nav > ul.open {
+  transform: translateX(0%);
+}
+nav.top-nav > ul > li {
+  padding: 2%;
+  width: 100%;
+  text-align: center;
+  background: var(--background-color);
+  transition: all 0.2s;
+}
+nav.top-nav > ul > li:hover {
+  background-color: var(--background-color-hover);
+}
+nav.top-nav > ul > li > a {
+  color: var(--light-text);
+  font-size: 18px;
+}
+
+nav > .hamburger-menu {
+  width: 32px;
+  height: 24px;
+  margin: 20px 24px;
+  cursor: pointer;
+}
+.hamburger-menu > .hamburger-menu-lines {
+  background: #fff;
+  height: 4px;
+  width: 32px;
+  top: 10px;
+  position: relative;
+}
+.hamburger-menu > .hamburger-menu-lines::before {
+  background: #fff;
+  height: 4px;
+  width: 32px;
+  content: ' ';
+  display: block;
+  position: relative;
+  top: -10px;
+}
+.hamburger-menu > .hamburger-menu-lines::after {
+  background: #fff;
+  height: 4px;
+  width: 32px;
+  content: ' ';
+  display: block;
+  position: relative;
+  top: 6px;
+}
+main {
+  margin-top: 500px;
+}

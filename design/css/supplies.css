@@ -1,0 +1,15 @@
+#suppliespage article h2, #suppliespage article p {
+    margin: 15px 0;
+}
+#suppliespage article { 
+    margin: 10px 24px;
+}
+#suppliespage article h2 {
+    color: var(--background-color);
+}
+#suppliespage article ul {
+    padding-left: 16px;
+}
+#suppliespage {
+    margin-top: 70px;
+}

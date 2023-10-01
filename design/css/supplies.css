@@ -1,9 +1,6 @@
 #suppliespage article h2, #suppliespage article p {
     margin: 15px 0;
 }
-#suppliespage article > figure > img {
-    width: 100%;
-}
 #suppliespage article { 
     margin: 10px 24px;
 }

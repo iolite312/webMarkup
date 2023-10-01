@@ -125,9 +125,6 @@ footer > section:nth-child(2) {
   justify-content: center;
   margin: 0 24px;
 }
-footer section > img {
-  width: 100%;
-}
 footer section:not(:nth-child(2)) {
   margin: 0 24px;
   padding: 10px 0;

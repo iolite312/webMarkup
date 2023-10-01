@@ -19,6 +19,9 @@ body {
 a {
   text-decoration: none;
 }
+img {
+  width: 100%;
+}
 nav.top-nav {
   position: fixed;
   top: 0;

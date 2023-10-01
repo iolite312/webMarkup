@@ -94,6 +94,7 @@ nav > .hamburger-menu {
   position: relative;
   top: 6px;
 }
+/* TODO check out if main can have the margin */
 main {
   margin-top: 64px;
 }

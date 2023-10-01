@@ -1,0 +1,15 @@
+#tipsandtrickspage article > section,
+#tipsandtrickspage header > section {
+    margin: 10px 24px;
+}
+#tipsandtrickspage article ul {
+    padding-left: 16px;
+    margin-bottom: 16px;
+}
+#tipsandtrickspage h2 {
+    margin: 16px 0;
+    color: var(--background-color);
+}
+#tipsandtrickspage {
+    margin-top: 70px;
+}

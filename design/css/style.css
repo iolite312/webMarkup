@@ -95,5 +95,39 @@ nav > .hamburger-menu {
   top: 6px;
 }
 main {
-  margin-top: 500px;
+  margin-top: 64px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  background: var(--background-color);
+  color: #fff;
+  border-top: solid 4px var(--background-color-hover);
+  padding-top: 10px;
+}
+footer a {
+  text-decoration: underline;
+  color: #fff;
+}
+footer ul {
+  list-style: none;
+}
+footer li, footer > section:nth-child(4) > a {
+  padding: 3px 0;
+}
+footer > section:nth-child(2) {
+  order: -1;
+  display: flex;
+  justify-content: center;
+  margin: 0 24px;
+}
+footer section > img {
+  width: 100%;
+}
+footer section:not(:nth-child(2)) {
+  margin: 0 24px;
+  padding: 10px 0;
+}
+footer section:last-child {
+  text-align: center;
 }

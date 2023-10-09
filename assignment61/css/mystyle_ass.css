@@ -1,0 +1,88 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+}
+body {
+    width: 800px;
+    margin: auto;
+}
+img {
+    width: 100px;
+}
+#mainmenu > a {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+#mainmenu > a > img {
+    display: block;
+    margin: auto;
+    height: 100%;
+}
+#mainmenu > ul {
+    width: 60%;
+    line-height: 7em;
+    float: left;
+    text-align: center;
+}
+#mainmenu > ul > li {
+    display: inline;
+}
+#mainmenu > form {
+    width: 20%;
+    line-height: 7em;
+    float: left;
+}
+#mainmenu > form > h3 {
+    text-align: center;
+}
+#company_payoff {
+    clear: both;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+#company_payoff > h1, #company_payoff > h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+main {
+    clear: both;
+    width: 100%;
+}
+main > .main_article {
+    width: 50%;
+    float: left;
+}
+main > .main_article > a {
+    float: left;
+}
+#company_footer {
+    clear: both;
+    width: 100%;
+}
+#company_footer_section_1 {
+    width: 30%;
+    float: left;
+}
+#company_footer_section_2 {
+    width: 70%;
+    float: left;
+}
+#company_footer_section_2 > aside {
+    width: 30%;
+    float: left;
+}
+#company_footer_section_2 > article {
+    width: 30%;
+    float: left;
+}
+#company_footer_section_2 > section {
+    width: 40%;
+    float: left;
+}
+#company_footer_section_2 > section > a > img {
+    width: 20%;
+    margin: 5%;
+}

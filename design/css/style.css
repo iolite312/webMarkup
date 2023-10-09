@@ -71,13 +71,15 @@ nav > .hamburger-menu {
   height: 24px;
   margin: 20px 24px;
   cursor: pointer;
+  background: none;
+  border: none;
 }
 .hamburger-menu > .hamburger-menu-lines {
   background: #fff;
   height: 4px;
   width: 32px;
-  top: 10px;
   position: relative;
+  display: block;
 }
 .hamburger-menu > .hamburger-menu-lines::before {
   background: #fff;
